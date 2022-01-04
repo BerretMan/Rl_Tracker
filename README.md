@@ -3,5 +3,6 @@
 
 # Dowload Realease
 #### Pour dowload la realease, cliquez ici:
+https://github.com/SeLucas/Rl_Tracker/releases/tag/V1.0
 
 
