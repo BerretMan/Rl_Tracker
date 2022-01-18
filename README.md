@@ -5,4 +5,10 @@
 #### Pour dowload la realease, cliquez ici:
 https://github.com/SeLucas/Rl_Tracker/releases/tag/V1.0
 
+# Usage
+```ruby
+from RlApi import*
 
+#print rank 1v1
+solo=rltracker.solo("pseudo")
+```
