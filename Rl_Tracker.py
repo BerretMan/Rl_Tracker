@@ -1,4 +1,6 @@
-#RL_Tracker by Garrug and Lucas and Vorace
+#RL_Tracker by Garrug and Lucas and vorace32
+
+
 import tkinter
 from tkinter import *
 import tkinter.messagebox
