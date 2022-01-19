@@ -1,6 +1,5 @@
 #RL_Tracker by Garrug and Lucas and vorace32
 
-
 import tkinter
 from tkinter import *
 import tkinter.messagebox
@@ -32,7 +31,7 @@ def normal():
 
     if check==1:
         try:
-            saison=rltracker.saison( pseudo )
+            saison=rltracker.saison()
             solo=rltracker.solo( pseudo )
             solo_div=rltracker.solo_div( pseudo )
             solo_ws=rltracker.solo_ws( pseudo )
@@ -91,7 +90,7 @@ def solo():
         toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
 
     try:
-        saison=rltracker.saison( pseudo )
+        saison=rltracker.saison()
         solo=rltracker.solo( pseudo )
         solo_div=rltracker.solo_div( pseudo )
         solo_ws=rltracker.solo_ws( pseudo )
@@ -133,7 +132,7 @@ def duo():
         toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
 
     try:
-        saison=rltracker.saison( pseudo )
+        saison=rltracker.saison()
         duo=rltracker.duo( pseudo )
         duo_div=rltracker.duo_div( pseudo )
         duo_ws=rltracker.duo_ws( pseudo )
@@ -175,7 +174,7 @@ def trio():
         toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
 
     try:
-        saison=rltracker.saison( pseudo )
+        saison=rltracker.saison()
         trio=rltracker.trio( pseudo )
         trio_div=rltracker.trio_div( pseudo )
         trio_ws=rltracker.trio_ws( pseudo )
@@ -221,7 +220,7 @@ def extra():
 
     if check==1:
         try:
-            saison=rltracker.saison( pseudo )
+            saison=rltracker.saison()
             panier=rltracker.panier( pseudo )
             panier_div=rltracker.panier_div( pseudo )
             panier_ws=rltracker.panier_ws( pseudo )
@@ -301,7 +300,7 @@ def panier():
         toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
 
     try:
-        saison=rltracker.saison( pseudo )
+        saison=rltracker.saison()
         panier=rltracker.panier( pseudo )
         panier_div=rltracker.panier_div( pseudo )
         panier_ws=rltracker.panier_ws( pseudo )
@@ -343,7 +342,7 @@ def rumble():
         toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
 
     try:
-        saison=rltracker.saison( pseudo )
+        saison=rltracker.saison()
         rumble=rltracker.rumble( pseudo )
         rumble_div=rltracker.rumble_div( pseudo )
         rumble_ws=rltracker.rumble_ws( pseudo )
@@ -385,7 +384,7 @@ def dropshot():
         toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
 
     try:
-        saison=rltracker.saison( pseudo )
+        saison=rltracker.saison()
         dropshot=rltracker.dropshot( pseudo )
         dropshot_div=rltracker.dropshot_div( pseudo )
         dropshot_ws=rltracker.dropshot_ws( pseudo )
@@ -427,7 +426,7 @@ def palet():
         toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
 
     try:
-        saison=rltracker.saison( pseudo )
+        saison=rltracker.saison()
         palet=rltracker.palet( pseudo )
         palet_div=rltracker.palet_div( pseudo )
         palet_ws=rltracker.palet_ws( pseudo )
@@ -469,7 +468,7 @@ def tournoi():
         toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
 
     try:
-        saison=rltracker.saison( pseudo )
+        saison=rltracker.saison()
         tournoi=rltracker.tournoi( pseudo )
         tournoi_div=rltracker.tournoi_div( pseudo )
         tournoi_ws=rltracker.tournoi_ws( pseudo )
@@ -719,7 +718,7 @@ def all():
             else:
                 louche="Il n'est pas louche"
 
-            saison=rltracker.saison( pseudo )
+            saison=rltracker.saison()
             panier=rltracker.panier( pseudo )
             panier_div=rltracker.panier_div( pseudo )
             panier_ws=rltracker.panier_ws( pseudo )
@@ -765,7 +764,7 @@ def all():
 
             tournoi="\n\nEn tournoi , il est : " + tournoi + " " + tournoi_div+"\nIl a un mmr de : "+str(tournoi_mmr)+"\nEn : "+str(tournoi_nb)+ " game\nIl a une win streak de : "+str(tournoi_ws)+"\nIl est top :" +str(100-tournoi_pourcent) + "%"
 
-            saison=rltracker.saison( pseudo )
+            saison=rltracker.saison()
             solo=rltracker.solo( pseudo )
             solo_div=rltracker.solo_div( pseudo )
             solo_ws=rltracker.solo_ws( pseudo )
