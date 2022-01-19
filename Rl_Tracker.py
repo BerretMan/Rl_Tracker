@@ -806,6 +806,21 @@ def all():
         
     toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
 
+    
+
+def saison():
+    toplevel = tkinter.Toplevel()
+    toplevel.attributes ('-fullscreen', True)
+    saison = rltracker.saison()
+    texte = "Actuellement la saison est la "+str(saison)+"ème"
+    text = Text(toplevel, height=200, width=1000)
+    text.insert(INSERT, texte)
+    text.pack(pady=20)
+    toplevel.bind("<Escape>", lambda evt: toplevel.destroy())
+    
+    
+    
+    
 window = tkinter.Tk()
 window.attributes ('-fullscreen', True)
 window.title("RlTracker by Garrug")
@@ -862,6 +877,7 @@ menuInfo.grid(row=0,column=2)
 # Création d'un menu défilant
 menuDeroulant3 = Menu(menuInfo)
 menuDeroulant3.add_command(label="Toutes les infos", command = info)
+menuDeroulant3.add_command(label="Saison", command = saison)
 
 
 # Attribution du menu déroulant au menu Affichage
