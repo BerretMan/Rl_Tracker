@@ -474,8 +474,10 @@ class RLTRACKER:
 
 
 #info saison
-    def saison(self, arg):
-        RLTRACKER.bypass(self, arg)
+    def saison(self):
+        self.scraper = cloudscraper.create_scraper()
+        self.url = self.scraper.get("https://api.tracker.gg/api/v2/rocket-league/standard/profile/epic/vorace32")
+        self.jsonObject = json.loads(self.url.content)
         return(self.jsonObject['data']['metadata']['currentSeason'])
     
 
