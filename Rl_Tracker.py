@@ -2,7 +2,6 @@
 
 import tkinter
 from tkinter import *
-import tkinter.messagebox
 from RlApi import*
 from PIL import Image, ImageTk 
 
