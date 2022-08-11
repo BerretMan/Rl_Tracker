@@ -1,7 +1,7 @@
 # Rl_Tracker
 #### Rl_Tracker est un tracker pour Rocket League Utilisant notre API permettant de tracker ses statistques sur Rocket League
 
-(le programe ne marche plus a cause d'une mise a jour de cloudflare, on attend une mise a jour de cloudscraper)
+[11/08/22] L'API Fonctionne
 
 # Dowload Realease
 #### Pour dowload la realease (ou notre api), cliquez ici:
